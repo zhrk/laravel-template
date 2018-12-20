@@ -54,6 +54,6 @@ php artisan make:controller HomeController
 - **Do not forget to connect the model itself to the controller and allow it to fill in the fields**
 - Configure relations in Role and User models using the example snippet many_to_many (**User = Role, Role = User**)
 - Configure the validator in the registration controller (name ---> login)
-- Replace the registration code in the registration controller
+- Replace the registration code in the register controller
 - Redefine the public function username to return login instead of email (see **LoginController**)
 - Allow fill login instead name in User model
