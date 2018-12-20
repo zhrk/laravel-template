@@ -23,12 +23,6 @@ php artisan make:migration create_users_table
 - Replace the standard code from the file of the same name
 
 ```sh
-php artisan make:migration create_password_resets_table
-```
-
-- Replace the standard code from the file of the same name
-
-```sh
 php artisan make:migration create_roles_table
 ```
 
