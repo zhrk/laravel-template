@@ -13,7 +13,7 @@ class HomeController extends Controller
   {
 
     Role::create([
-      'name' => 'guest'
+      'name' => 'admin'
     ]);
 
     return view('welcome');
